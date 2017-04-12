@@ -1,0 +1,50 @@
+{
+    "workshop": {
+        "title": "DevOps and Cloud Native Microservices-DB workshop",
+        "description": "The Oracle Public Cloud Cloud Native Microservices workshop is a one day workshop focused on DevOps in the Oracle Public Cloud. This workshop will walk you through the Software Development Lifecycle (SDLC) for a Cloud Native project that will create and use several Microservices. You will take on 4 Personas during the workshop. The Project Manager Persona will create the projects, add tasks and features to be worked on, and assign tasks to developers. The Project Manager will then start the initial sprint. The MySQL Database Developer persona will create a test and development database copy, and then update the database schema. The Java Developer persona will develop new REST services that will allow for access to twitter and MySQL data. The JavaScript Developer persona will develop a new Alphaoffice Marketing UI that will display the twitter data to allow for analysis. During the workshop, you will get exposure to Oracle Developer Cloud Service and Oracle Application Container Cloud Service.",
+        "labs": [
+            {
+                "number": "100",
+                "filename": "lab_300_images_a.md",
+                "title": "Lab 300: Images a",
+                "description": "Lab 300: Images a"
+            },
+            {
+                "number": "200",
+                "filename": "lab_300_images_b.md",
+                "title": "Lab 300: Images b",
+                "description": "Lab 300: Images b"
+            },
+            {
+                "number": "300",
+                "filename": "lab_300_images_c.md",
+                "title": "Lab 300: Images c",
+                "description": "Lab 300: Images c"
+            },
+            {
+                "number": "400",
+                "filename": "lab_300_images_d.md",
+                "title": "Lab 300: Images d",
+                "description": "Lab 300: Images d"
+            },
+            {
+                "number": "500",
+                "filename": "lab_400_images_a.md",
+                "title": "Lab 400: Images a",
+                "description": "Lab 400: Images a"
+            },
+            {
+                "number": "600",
+                "filename": "lab_400_images_b.md",
+                "title": "Lab 400: Images b",
+                "description": "Lab 400: Images b"
+            },
+            {
+                "number": "700",
+                "filename": "lab_400_images_c.md",
+                "title": "Lab 400: Images c",
+                "description": "Lab 400: Images c"
+            }
+        ]
+    }
+}
