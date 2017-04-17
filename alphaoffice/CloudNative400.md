@@ -17,7 +17,7 @@ In the first lab (100), Lisa the Project Manager created a new project in the De
 - Import code from an external Git Repository
 - Import the project into the Brackets code editor, perform edits and push the edits to the repository in the Oracle Cloud
 - Build and deploy the project using the Oracle Developer Cloud Service and the Oracle Application Container Cloud Service
-- Follow the GIT methodology for source code control
+- Follow the Git methodology for source code control
 - Follow the Agile methodology for project management
 
 ## Required Artifacts
@@ -26,7 +26,7 @@ In the first lab (100), Lisa the Project Manager created a new project in the De
 
 # Create Initial Marketing UI Service
 
-## Create the initial GIT Repository
+## Create the initial Git Repository
 
 ### **STEP 1**: Review and update the Agile Board
 
@@ -66,7 +66,7 @@ In the first lab (100), Lisa the Project Manager created a new project in the De
 
     ![](images/lab400/400_01_09_sprint34.png)
 
-### **STEP 2**: Create the new GIT repository for the UI code
+### **STEP 2**: Create the new Git repository for the UI code
 
 - Click on **Code** on the navigation panel.
 
@@ -76,7 +76,7 @@ In the first lab (100), Lisa the Project Manager created a new project in the De
 
     ![](images/lab400/400_02_02_repository2.png)
 
-- In the **New Repository** popup, enter **AlphaofficeUI** and enter a description. Select **Import existing repository**, and enter `https://github.com/johnhennen/AlphaofficeUI` for the outside repository location.  Then click **Create**.
+- In the **New Repository** popup, enter `AlphaofficeUI` and enter a description. Select **Import existing repository**, and enter `https://github.com/johnhennen/AlphaofficeUI` for the outside repository location.  Then click **Create**.
 
     ![](images/lab400/400_02_03_repository3.png)
 
@@ -88,7 +88,7 @@ In the first lab (100), Lisa the Project Manager created a new project in the De
 
 ### **STEP 3**: Create Default Build Process
 
-Now that you have the source code in your managed GIT repository, you will need to create a build process that will be triggered whenever a commit is made to the master branch. In this step you wil set up a shell script build process.
+Now that you have the source code in your managed Git repository, you will need to create a build process that will be triggered whenever a commit is made to the master branch. In this step you wil set up a shell script build process.
 
 - Click **Build** on the navigation panel to access the build page, and then click the **New Job** button.
 
@@ -102,7 +102,7 @@ Now that you have the source code in your managed GIT repository, you will need 
 
     ![](images/lab400/400_03_03_build3.png)
 
-- Click the **Source Control** tab. Select **Git** and select AlphaofficeUI.git from the drop down.
+- Click the **Source Control** tab. Select **Git** and select **AlphaofficeUI.git** from the dropdown.
 
     ![](images/lab400/400_03_04_build4.png)
 
@@ -110,7 +110,7 @@ Now that you have the source code in your managed GIT repository, you will need 
 
     ![](images/lab400/400_03_05_build5.png)
 
-- Click the **Build Step** tab. Click the **Add Build Steps** drop down and select **Execute shell**.
+- Click the **Build Step** tab. Click the **Add Build Steps** dropdown and select **Execute shell**.
 
     ![](images/lab400/400_03_06_build6.png)
 
@@ -140,7 +140,7 @@ Now that you have the source code in your managed GIT repository, you will need 
 
     ![](images/lab400/400_04_01_deploy1.png)
 
-- On the **New Deployment Configuration** popup, Enter `DeployUI` for the **Configuration Name**. Then enter `AlphaofficeUI` as the **Application Name**. The latter will be the name for the application in the Oracle Application Container Cloud Service, and this string will be incorporated into the URL for the deployed application. Select **On Demand** for the Type. And make sure **BuildUI** is selected for Job and **target/msdbw-microserviceui.zip** is selected for Artifact. Click on the **New** button and select **Application Container Cloud** from the drop down. Then click **Save and Deploy**.
+- On the **New Deployment Configuration** popup, Enter `DeployUI` for the **Configuration Name**. Then enter `AlphaofficeUI` as the **Application Name**. The latter will be the name for the application in the Oracle Application Container Cloud Service, and this string will be incorporated into the URL for the deployed application. Select **On Demand** for the Type. And make sure **BuildUI** is selected for Job and **target/msdbw-microserviceui.zip** is selected for Artifact. Click on the **New** button and select **Application Container Cloud** from the dropdown. Then click **Save and Deploy**.
 
     ![](images/lab400/400_04_02_deploy2.png)
 
