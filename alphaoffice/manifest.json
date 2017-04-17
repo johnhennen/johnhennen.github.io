@@ -5,45 +5,15 @@
         "labs": [
             {
                 "number": "100",
-                "filename": "lab_300_images_a.md",
-                "title": "Lab 300: Images a",
-                "description": "Lab 300: Images a"
+                "filename": "CloudNative300.md",
+                "title": "Lab 300",
+                "description": "Lab 300"
             },
             {
                 "number": "200",
-                "filename": "lab_300_images_b.md",
-                "title": "Lab 300: Images b",
-                "description": "Lab 300: Images b"
-            },
-            {
-                "number": "300",
-                "filename": "lab_300_images_c.md",
-                "title": "Lab 300: Images c",
-                "description": "Lab 300: Images c"
-            },
-            {
-                "number": "400",
-                "filename": "lab_300_images_d.md",
-                "title": "Lab 300: Images d",
-                "description": "Lab 300: Images d"
-            },
-            {
-                "number": "500",
-                "filename": "lab_400_images_a.md",
-                "title": "Lab 400: Images a",
-                "description": "Lab 400: Images a"
-            },
-            {
-                "number": "600",
-                "filename": "lab_400_images_b.md",
-                "title": "Lab 400: Images b",
-                "description": "Lab 400: Images b"
-            },
-            {
-                "number": "700",
-                "filename": "lab_400_images_c.md",
-                "title": "Lab 400: Images c",
-                "description": "Lab 400: Images c"
+                "filename": "CloudNative400.md",
+                "title": "Lab 400",
+                "description": "Lab 400"
             }
         ]
     }
