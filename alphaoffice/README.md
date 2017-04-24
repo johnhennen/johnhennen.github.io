@@ -8,3 +8,7 @@ DOCUMENTS
 
 **Documentation**: [CloudNative400.md](CloudNative400.md)
 
+## Lab 500 
+
+**Documentation**: [CloudNative500.md](CloudNative500.md)
+
